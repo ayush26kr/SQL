@@ -1,0 +1,3 @@
+SELECT SUM(city.POPULATION) FROM Country LEFT JOIN city
+on country.code=city.countrycode
+WHERE COUNTRY.CONTINENT="Asia";
