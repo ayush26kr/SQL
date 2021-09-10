@@ -1,0 +1,6 @@
+/*
+contributed by 
+Ayush Kumar
+*/
+Set @num=0;
+select REPEAT("* ",@num:=@num+1)from information_schema.tables where @num<20;
